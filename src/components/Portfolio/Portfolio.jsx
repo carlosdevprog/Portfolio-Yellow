@@ -1,6 +1,6 @@
-import React from 'react'
+import React,  { useContext } from 'react'
 import './Portfolio.css'
-
+import { themeContext } from "../../Context";
 import supertrips from '../../images/supertrips.png'
 import carhub from '../../images/carshow.png'
 import cadulanches from '../../images/ecommerceCadu.png'
@@ -10,11 +10,14 @@ import todolist from '../../images/todolist.png'
 
 
 const Portfolio = () => {
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
+
     return (
         <>
 
             <div className='divSpan'>
-                <span>Projetos Recentes</span>
+                <span style={{ color: darkMode ? "white" : "" }}>Projetos Recentes</span>
                 <span>Portfólio</span>
             </div>
 
@@ -57,7 +60,7 @@ const Portfolio = () => {
                 </a>
 
                 <a href="https://cadu-food-ecommerce.vercel.app/" target='_blank' rel='noreferrer'>
-                    <img src={cadulanches} alt="cadu lanches" />
+                    <img src={googleauth} alt="cadu lanches" />
                 </a>
 
                 <a href="https://cadu-food-ecommerce.vercel.app/" target='_blank' rel='noreferrer'>
@@ -65,7 +68,7 @@ const Portfolio = () => {
                 </a>
 
                 <a href="https://cadu-food-ecommerce.vercel.app/" target='_blank' rel='noreferrer'>
-                    <img src={cadulanches} alt="cadu lanches" />
+                    <img src={spotify} alt="cadu lanches" />
                 </a>
 
                 <a href="https://cadu-food-ecommerce.vercel.app/" target='_blank' rel='noreferrer'>
