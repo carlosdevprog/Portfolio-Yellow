@@ -55,12 +55,28 @@ const Portfolio = () => {
                 <a href="https://cadu-food-ecommerce.vercel.app/" target='_blank' rel='noreferrer'>
                     <img src={cadulanches} alt="cadu lanches" />
                 </a>
-                <div className="blur s-blur1" style={{ background: '#ABF1FF94' }}></div>
-                <img src={cadulanches} alt="spotify" />
-                <img src={cadulanches} alt="spotify" />
-                <img src={cadulanches} alt="spotify" />
-                <img src={cadulanches} alt="spotify" />
-                <img src={cadulanches} alt="spotify" />
+
+                <a href="https://cadu-food-ecommerce.vercel.app/" target='_blank' rel='noreferrer'>
+                    <img src={cadulanches} alt="cadu lanches" />
+                </a>
+
+                <a href="https://cadu-food-ecommerce.vercel.app/" target='_blank' rel='noreferrer'>
+                    <img src={cadulanches} alt="cadu lanches" />
+                </a>
+
+                <a href="https://cadu-food-ecommerce.vercel.app/" target='_blank' rel='noreferrer'>
+                    <img src={cadulanches} alt="cadu lanches" />
+                </a>
+
+                <a href="https://cadu-food-ecommerce.vercel.app/" target='_blank' rel='noreferrer'>
+                    <img src={cadulanches} alt="cadu lanches" />
+                </a>
+                
+                <a href="https://cadu-food-ecommerce.vercel.app/" target='_blank' rel='noreferrer'>
+                    <img src={cadulanches} alt="cadu lanches" />
+                </a>
+                
+                
             </div>
         </>
     )

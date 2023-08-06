@@ -45,5 +45,7 @@
 }
 
 .n-button {
-    flex: 2;    
+    flex: 2; 
+    /* position: fixed;   
+    right: 50px; */
 }
