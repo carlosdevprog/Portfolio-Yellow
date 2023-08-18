@@ -3,7 +3,9 @@ import './Navbar.css'
 import { Link } from 'react-scroll'
 import Toggle from './../Toggle/Toggle';
 
+
 const Navbar = () => {
+
     return (
         <div className='n-wrapper'>
             <div className="n-left">
@@ -16,34 +18,29 @@ const Navbar = () => {
                 <div className="n-list">
                     <ul>
                         <li>
-                            <Link style={{ color: 'black' }} activeClass="active" to="Navbar" spy={true} smooth={true}>
-                                Home
+                            <Link style={{ color: '#333543' }} activeClass="active" to="Navbar" spy={true} smooth={true}>
+                                Início
                             </Link>
                         </li>
 
                         <li>
-                            <Link style={{ color: 'black' }} to="services" spy={true} smooth={true}>
-                                Services
+                            <Link style={{ color: '#333543' }} to="services" spy={true} smooth={true}>
+                                Tecnologias
                             </Link>
                         </li>
 
                         <li>
-                            <Link style={{ color: 'black' }} to="works" spy={true} smooth={true}>
-                                Experience
+                            <Link style={{ color: '#333543' }} to="portfolio" spy={true} smooth={true}>
+                                Projetos
                             </Link>
                         </li>
 
                         <li>
-                            <Link style={{ color: 'black' }} to="portfolio" spy={true} smooth={true}>
-                                Portfólio
+                            <Link style={{ color: '#333543' }} to="works" spy={true} smooth={true}>
+                                Formação
                             </Link>
                         </li>
-
-                        <li>
-                            <Link style={{ color: 'black' }} to="testimonial" spy={true} smooth={true}>
-                                Testimonial
-                            </Link>
-                        </li>
+                        
                     </ul>
                 </div>
 

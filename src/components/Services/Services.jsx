@@ -21,10 +21,9 @@ const Services = () => {
 
             {/* lado esquerdo */}
             <div className="awesome">
-                <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-                <span>Services</span>
-                <spane style={{ color: darkMode ? "white" : "" }}>Lorem ipsum dolor iisci illo dot quaerat ipsam os do maiisi <br />
-                    ispum is simpleey dumy text of printing.
+                <span style={{ color: darkMode ? "white" : "" }}>Minhas</span>
+                <span>Tecnologias</span>
+                <spane style={{ color: darkMode ? "white" : "" }}>Apesar do meu foco em Front-End, tenho experiência e estudado diversas outras tecnologias. O estudo é constante.
                 </spane>
                 <a href={curriculo} download>
                     <button className="button s-button">Download CV</button>

@@ -28,7 +28,8 @@ const Intro = () => {
                 <div className="i-name">
                     <span style={{ color: darkMode ? "white" : "" }}>Oi, eu sou</span>
                     <span>Carlos Lima</span>
-                    <span style={{ color: darkMode ? "white" : "" }}>Front-End Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex nulla consequatur maiores nihil laudantium enim doloremque magni quisquam exercitationem similique perferendis, quibusdam obcaecati, sed, maxime tempore.</span>
+                    <span style={{ color: darkMode ? "white" : "" }}>Sou um desenvolvedor Front-End apaixonado por tecnologia. Estou sempre em busca de mais conhecimento para melhorar os meus projetos, aberto sempre para aprender novas tecnologias. Atualmente estou cursando Engenharia de Software. 
+</span>
                 </div>
 
                 <Link to="contact" smooth={true} spy={true}>
