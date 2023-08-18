@@ -2,10 +2,10 @@ import React,  { useContext } from 'react'
 import './Portfolio.css'
 import { themeContext } from "../../Context";
 import supertrips from '../../images/supertrips.png'
-import carhub from '../../images/carshow.png'
-import cadulanches from '../../images/ecommerceCadu.png'
+import carhub from '../../images/carhub.png'
+import caduecommerce from '../../images/caduecommerce.png'
 import spotify from '../../images/spotify.png'
-import googleauth from '../../images/google-auth.png'
+import googleauth from '../../images/googleauth.png'
 import todolist from '../../images/todolist.png'
 
 
@@ -56,27 +56,27 @@ const Portfolio = () => {
             </Swiper> */}
 
                 <a href="https://cadu-food-ecommerce.vercel.app/" target='_blank' rel='noreferrer'>
-                    <img src={cadulanches} alt="cadu lanches" />
+                    <img src={caduecommerce} alt="cadu lanches" />
                 </a>
 
-                <a href="https://cadu-food-ecommerce.vercel.app/" target='_blank' rel='noreferrer'>
-                    <img src={googleauth} alt="cadu lanches" />
+                <a href="https://car-show-topaz.vercel.app/" target='_blank' rel='noreferrer'>
+                    <img src={carhub} alt="car show" />
                 </a>
 
-                <a href="https://cadu-food-ecommerce.vercel.app/" target='_blank' rel='noreferrer'>
-                    <img src={cadulanches} alt="cadu lanches" />
+                <a href="https://super-trips.vercel.app/" target='_blank' rel='noreferrer'>
+                    <img src={supertrips} alt="super trips" />
                 </a>
 
-                <a href="https://cadu-food-ecommerce.vercel.app/" target='_blank' rel='noreferrer'>
-                    <img src={spotify} alt="cadu lanches" />
+                <a href="https://spotify-inky-ten.vercel.app/" target='_blank' rel='noreferrer'>
+                    <img src={spotify} alt="interface spotify" />
                 </a>
 
-                <a href="https://cadu-food-ecommerce.vercel.app/" target='_blank' rel='noreferrer'>
-                    <img src={cadulanches} alt="cadu lanches" />
+                <a href="https://react-to-do-list-xi-seven.vercel.app/" target='_blank' rel='noreferrer'>
+                    <img src={todolist} alt="todo list" />
                 </a>
                 
-                <a href="https://cadu-food-ecommerce.vercel.app/" target='_blank' rel='noreferrer'>
-                    <img src={cadulanches} alt="cadu lanches" />
+                <a href="https://google-auth-lemon.vercel.app/" target='_blank' rel='noreferrer'>
+                    <img src={googleauth} alt="google auth" />
                 </a>
                 
                 
