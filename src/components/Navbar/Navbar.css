@@ -29,6 +29,7 @@
 .n-list {
     flex: 10;
 
+
 }
 
 .n-list>ul {
@@ -45,7 +46,13 @@
 }
 
 .n-button {
-    flex: 2; 
+    flex: 2;
     /* position: fixed;   
     right: 50px; */
+}
+
+@media screen and (max-width: 480px) {
+    .n-list {
+        display: none;
+    }
 }

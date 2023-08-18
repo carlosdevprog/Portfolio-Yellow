@@ -6,9 +6,11 @@ import Humble from '../../images/humble.png'
 import Card from '../Card/Card'
 import curriculo from "../../images/curriculo-carlos-lima.pdf"
 import { themeContext } from "../../Context";
+import { motion } from "framer-motion";
 
 
 const Services = () => {
+    const transition = { duration: 1, type: 'spring' }
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
 
@@ -19,7 +21,7 @@ const Services = () => {
 
             {/* lado esquerdo */}
             <div className="awesome">
-            <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
+                <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
                 <span>Services</span>
                 <spane style={{ color: darkMode ? "white" : "" }}>Lorem ipsum dolor iisci illo dot quaerat ipsam os do maiisi <br />
                     ispum is simpleey dumy text of printing.
@@ -34,26 +36,38 @@ const Services = () => {
             {/* lado direito */}
             <div className="cards">
 
-                <div style={{ left: '14rem' }}>
+                <motion.div
+                    initial={{ left: '25rem' }}
+                    whileInView={{ left: '14rem' }}
+                    transition={transition}
+                    style={{ left: '14rem' }}>
                     <Card
                         emoji={HeartEmoji}
                         heading={'Front-End'}
                         detail={'HTML5, CSS3, Javascript, React.js, Next.js, Typescript'} />
-                </div>
+                </motion.div>
 
-                <div style={{ top: '12rem', left: '-4rem' }}>
+                <motion.div
+                    initial={{ left: "-11rem", top: "12rem" }}
+                    whileInView={{ left: "-4rem" }}
+                    transition={transition}
+                    style={{ top: '12rem', left: '-4rem' }}>
                     <Card
                         emoji={Glasses}
                         heading={'Back-End'}
                         detail={'Node.js, Prisma, PostgreSQL, MongoDB, Docker'} />
-                </div>
+                </motion.div>
 
-                <div style={{ top: '19rem', left: '12rem' }}>
+                <motion.div
+                    initial={{ top: "19rem", left: "25rem" }}
+                    whileInView={{ left: "12rem" }}
+                    transition={transition}
+                    style={{ top: '19rem', left: '12rem' }}>
                     <Card
                         emoji={Humble}
                         heading={'Outros'}
                         detail={'Jest, Testing-Library, Context-Api, Styled-Components, SASS, Tailwind'} />
-                </div>
+                </motion.div>
 
                 <div className="blur s-blur2" style={{ background: 'var(--purple)' }}></div>
 

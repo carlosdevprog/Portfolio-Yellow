@@ -7,8 +7,11 @@ import react from '../../images/react.png'
 import jest from '../../images/jest.png'
 import { Link } from 'react-scroll'
 import { themeContext } from "../../Context";
+import { motion } from "framer-motion";
 
 const Works = () => {
+
+    const transiion= { duration: 3.5, type: "spring" }
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
 
@@ -39,7 +42,12 @@ const Works = () => {
             </div>
 
             <div className='w-right'>
-                <div className='w-mainCircle'>
+                <motion.div
+                initial={{ rotate: 45 }}
+                whileInView={{ rotate: 0 }}
+                viewport={{ margin: "-40px" }}
+                transition={transiion}
+                className='w-mainCircle'>
                     <div className='w-secCircle'>
                         <img src={react} alt="react icon" />
                     </div>
@@ -55,7 +63,7 @@ const Works = () => {
                     <div className='w-secCircle'>
                         <img src={jest} alt="jest icon" />
                     </div>
-                </div>
+                </motion.div>
 
                 <div className='w-backCircle blueCircle'></div>
                 <div className='w-backCircle yellowCircle'></div>

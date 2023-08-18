@@ -14,7 +14,9 @@ import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 
 
-const Intro = () => {  
+const Intro = () => {
+
+    const transition = { duration: 2, type: 'spring' }
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
 
@@ -54,15 +56,26 @@ const Intro = () => {
                 <img src={Vector2} alt="vetores coloridos" />
                 <img className='imgboy' src={Boy} alt="minha imagem" />
 
-                <img src={Glassesimoji} alt="emoji" />
+                <motion.img src={Glassesimoji} alt="emoji"
+                    initial={{ left: '-36%' }}
+                    whileInView={{ left: '-24%' }}
+                    transition={transition} />
 
-                <div style={{ top: '-4%', left: '68%' }}>
+                <motion.div
+                    initial={{ top: '-4%', left: '74%' }}
+                    whileInView={{ left: '68%' }}
+                    transition={transition}
+                    style={{ top: '-4%', left: '68%' }}>
                     <FloatingDiv image={Crown} text1='Desenvolvedor' text2='Web' />
-                </div>
+                </motion.div>
 
-                <div style={{ top: '18rem', left: '0rem' }}>
+                <motion.div
+                initial={{left: '9rem', top: '18rem'}}
+                whileInView={{left:'0rem'}}
+                transition={transition}
+                style={{ top: '18rem', left: '0rem' }}>
                     <FloatingDiv image={Thumbup} text1='Front-End' />
-                </div>
+                </motion.div>
 
                 {/* blur divs */}
                 <div className="blur"></div>
