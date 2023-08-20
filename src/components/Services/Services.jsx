@@ -4,7 +4,7 @@ import HeartEmoji from '../../images/heartemoji.png'
 import Glasses from '../../images/glasses.png'
 import Humble from '../../images/humble.png'
 import Card from '../Card/Card'
-import curriculo from "../../images/curriculo-carlos-lima.pdf"
+import curriculo from "../../images/Carlos_Eduardo_Lima.pdf"
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 

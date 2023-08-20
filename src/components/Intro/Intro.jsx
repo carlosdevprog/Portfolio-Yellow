@@ -12,6 +12,7 @@ import Crown from "../../images/crown.png";
 import { Link } from 'react-scroll'
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
+import curriculo from "../../images/Carlos_Eduardo_Lima.pdf"
 
 
 const Intro = () => {
@@ -36,7 +37,9 @@ const Intro = () => {
                     <button className="button i-button">Fale Comigo</button>
                 </Link>
 
+                <a href={curriculo} download>
                 <button className="button i-button">Download CV</button>
+                </a>
 
                 <div className="i-icons">
                     <a href="https://github.com/carlosdevprog" rel="noreferrer" target='_blank'>
