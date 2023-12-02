@@ -4,7 +4,7 @@ import HeartEmoji from '../../images/heartemoji.png'
 import Glasses from '../../images/glasses.png'
 import Humble from '../../images/humble.png'
 import Card from '../Card/Card'
-import curriculo from "../../images/Carlos_Eduardo_Lima.pdf"
+import curriculo from "../../images/Carlos_Eduardo_Lima_CV.pdf"
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 
@@ -43,7 +43,7 @@ const Services = () => {
                     <Card
                         emoji={HeartEmoji}
                         heading={'Front-End'}
-                        detail={'HTML5, CSS3, Javascript, React.js, Next.js, Typescript'} />
+                        detail={'HTML5, CSS3, Javascript, React.js, Next.js, Angular, Typescript'} />
                 </motion.div>
 
                 <motion.div
@@ -54,7 +54,7 @@ const Services = () => {
                     <Card
                         emoji={Glasses}
                         heading={'Back-End'}
-                        detail={'Node.js, Prisma, PostgreSQL, MongoDB, Docker'} />
+                        detail={'Node.js, Java/SpringBoot, Prisma, PostgreSQL, MongoDB, Docker'} />
                 </motion.div>
 
                 <motion.div

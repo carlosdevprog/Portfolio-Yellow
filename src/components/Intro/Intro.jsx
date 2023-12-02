@@ -12,7 +12,7 @@ import Crown from "../../images/crown.png";
 import { Link } from 'react-scroll'
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import curriculo from "../../images/Carlos_Eduardo_Lima.pdf"
+import curriculo from "../../images/Carlos_Eduardo_Lima_CV.pdf"
 
 
 const Intro = () => {
@@ -29,7 +29,7 @@ const Intro = () => {
                 <div className="i-name">
                     <span style={{ color: darkMode ? "white" : "" }}>Oi, eu sou</span>
                     <span>Carlos Lima</span>
-                    <span style={{ color: darkMode ? "white" : "" }}>Sou um desenvolvedor Front-End apaixonado por tecnologia. Estou sempre em busca de mais conhecimento para melhorar os meus projetos, aberto sempre para aprender novas tecnologias. Atualmente estou cursando Engenharia de Software. 
+                    <span style={{ color: darkMode ? "white" : "" }}>Sou um desenvolvedor Fullstack apaixonado por tecnologia. Estou sempre em busca de mais conhecimento para melhorar os meus projetos e sempre aberto para aprender novas tecnologias. Atualmente estou cursando Engenharia de Software. 
 </span>
                 </div>
 
@@ -71,7 +71,7 @@ const Intro = () => {
                     transition={transition}
                     style={{ top: '-4%', left: '68%' }}
                     className="floating-div">
-                    <FloatingDiv image={Crown} text1='Web' text2='Developer' />
+                    <FloatingDiv image={Crown} text1='Back-End'  />
                 </motion.div>
 
                 <motion.div
