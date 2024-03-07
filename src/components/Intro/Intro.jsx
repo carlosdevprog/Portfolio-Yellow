@@ -29,7 +29,7 @@ const Intro = () => {
                 <div className="i-name">
                     <span style={{ color: darkMode ? "white" : "" }}>Oi, eu sou</span>
                     <span>Carlos Lima</span>
-                    <span style={{ color: darkMode ? "white" : "" }}>Sou um desenvolvedor Fullstack apaixonado por tecnologia. Estou sempre em busca de mais conhecimento para melhorar os meus projetos e sempre aberto para aprender novas tecnologias. Atualmente estou cursando Engenharia de Software. 
+                    <span style={{ color: darkMode ? "white" : "" }}>Sou um desenvolvedor Fullstack apaixonado por tecnologia e jogos. Estou sempre em busca de mais conhecimento para melhorar os meus projetos e aberto para aprender novas tecnologias. 
 </span>
                 </div>
 
