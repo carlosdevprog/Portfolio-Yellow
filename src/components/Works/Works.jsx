@@ -4,7 +4,7 @@ import next from '../../images/next.png'
 import js from '../../images/javascript.png'
 import typescript from '../../images/typescript.png'
 import react from '../../images/react.png'
-import jest from '../../images/jest.png'
+import java from '../../images/java.png'
 import { Link } from 'react-scroll'
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
@@ -21,7 +21,6 @@ const Works = () => {
                 <span style={{ color: darkMode ? "white" : "" }}>Formação &</span>
                 <span>Soft-Skills</span>
                 <spane style={{ fontSize: '20px', color: darkMode ? "white" : "" }}>
-                    • Graduação Engenharia de Software - ( em andamento ) <br />
                     • Dev Club - Curso de Desenvolvimento Web Full Stack <br />
                     • Dev em Dobro - Curso de Desenvolvimento Web Front-End <br />
                     • Alura - Cursos Online de Tecnologia <br /> <br />
@@ -61,7 +60,7 @@ const Works = () => {
                         <img src={typescript} alt="next icon" />
                     </div>
                     <div className='w-secCircle'>
-                        <img src={jest} alt="jest icon" />
+                        <img src={java} alt="java icon" />
                     </div>
                 </motion.div>
 
